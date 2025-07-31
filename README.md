@@ -52,10 +52,10 @@ DISCORD_TOKEN=your_actual_discord_token_here
 #### 4. Add FFmpeg:
 
 * Download FFmpeg and place it in the `bin/ffmpeg` folder
-* Update the path in `main.py` if needed:
+* Update the path in `main.py`:
 
 ```python
-executable = "bin/ffmpeg/ffmpeg.exe"
+executable= "path/to/your/ffmpeg/executable"
 ```
 
 #### 5. Run the bot:
