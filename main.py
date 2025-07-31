@@ -218,7 +218,7 @@ async def play_next_song(voice_client, guild_id, channel):
                 "options": "-vn -c:a libopus -b:a 96k",  
         }
 
-        source = discord.FFmpegOpusAudio(audio_url, **ffmpeg_options, executable = "D:\\coding\\Experiments\\MusicBot\\bin\\ffmpeg\\ffmpeg.exe")
+        source = discord.FFmpegOpusAudio(audio_url, **ffmpeg_options, executable= "path/to/your/ffmpeg/executable")
         def after_play(error):
             if error:
                 print(f"[ERROR in after_play]: {error}")
